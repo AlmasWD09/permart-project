@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="bg-[#F1F0EA99] opacity-60 h-[56px] text-center">Navbar</div>
   )
 }
 
