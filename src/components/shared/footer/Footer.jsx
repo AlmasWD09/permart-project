@@ -22,11 +22,11 @@ const Footer = () => {
             <p>Your trusted marketplace for</p>
             <p>buying & selling pet essentials.</p>
             <div className="flex space-x-5 pt-[32px]">
-              <a href="">Overview</a>
-              <a href="">Features</a>
-              <a href="">About us</a>
-              <a href="">Blogs</a>
-              <a href="">Privacy</a>
+              <a href="/">Overview</a>
+              <a href="#">Features</a>
+              <a href="/about">About us</a>
+              <a href="/blogs">Blogs</a>
+              <a href="/privacy">Privacy</a>
             </div>
           </div>
           <div className="space-y-4">
@@ -141,7 +141,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="mt-[64px] mb-[32px]"/>
+        <hr className="mt-[64px] mb-[32px]" />
 
         <div className="flex justify-between items-center">
           <h3>
