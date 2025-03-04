@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="bg-[#ECE9D8]">
+        <div className="bg-[#ECE9D8] pt-[120px]">
             <div className="container mx-auto px-4">
                 <div className="flex  items-center gap-8">
                     {/* left side */}
@@ -24,12 +24,12 @@ const Banner = () => {
                         </button>
                     </div>
                 </div>
+            </div>
 
 
-
-
-                {/* banner image */}
-                <div className="space-y-6">
+            {/* banner image */}
+            <div className="bg-[#f1f0ea]">
+                <div className="max-w-7xl mx-auto space-y-6 pt-6">
                     <div className="flex flex-col md:flex-row gap-6">
                         <div className="relative">
                             <img src="/banner/photo02.png" alt="banner photo" className="" />
@@ -62,6 +62,29 @@ const Banner = () => {
                             <div className="absolute w-[40%]">
                                 <img src="/banner/extra.png" alt="" />
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="max-w-7xl mx-auto flex justify-center gap-7 pt-6">
+                    <div className="relative">
+                        <img src='/blogs/photo01.png' alt="blog photo" className="object-cover" />
+
+                        <div className="absolute left-6 bottom-6 max-w-[353px]">
+                            <h1 className="font-Poppins font-semibold text-[30px] text-[#172B4D]">Tips to keep your pet healthy</h1>
+                            <p className="font-Poppins text-[14px] text-[#3E4F6B]">Learn about the tips for your pet to keep it fit & healthy.</p>
+                            <button className="font-Poppins text-[14px] text-[#073F40] pt-[22px] pl-3">Read more</button>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <img src='/blogs/photo02.png' alt="blog photo" className="object-cover" />
+
+                        <div className="absolute left-6 bottom-6 max-w-[353px]">
+                            <h1 className="font-Poppins font-semibold text-[30px] text-[#172B4D]">10 essential foods for your puppy</h1>
+                            <p className="font-Poppins text-[14px] text-[#3E4F6B]">If you’re having a pet then you must should try these 10 foods for it.</p>
+                            <button className="font-Poppins text-[14px] text-[#073F40] pt-[22px] pl-3">Read more</button>
                         </div>
                     </div>
                 </div>
