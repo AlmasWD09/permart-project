@@ -1,5 +1,6 @@
 
 const Banner = () => {
+
     return (
         <div className="bg-[#ECE9D8] pt-[120px]">
             <div className="max-w-7xl mx-auto px-4">
@@ -28,9 +29,10 @@ const Banner = () => {
             </div>
 
 
+
             {/* banner image */}
             <div className="bg-[#f1f0ea]">
-                <div className="max-w-7xl mx-auto px-4 space-y-6 pt-6">
+                <div className="max-w-7xl mx-auto px-4 lg:px-0 space-y-6 pt-6">
                     <div className="flex flex-col md:flex-row gap-6">
                         <div className="relative">
                             <img src="/banner/photo02.png" alt="banner photo" className="" />
@@ -69,7 +71,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="max-w-7xl mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-center gap-7 pt-6 pb-6">
+                {/* <div className="max-w-7xl mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-center gap-7 pt-6 pb-6">
                     <div className="relative">
                         <img src='/blogs/photo01.png' alt="blog photo" className="object-cover" />
 
@@ -89,8 +91,9 @@ const Banner = () => {
                             <button className="font-Poppins text-[14px] text-[#073F40] pt-[22px] pl-3">Read more</button>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
+
         </div>
     )
 }
