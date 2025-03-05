@@ -58,44 +58,46 @@ const About = () => {
 
 
   return (
-    <div className="container mx-auto px-4 pb-[96px]">
+    <div className="container mx-auto px-4 pt-20 md:pt-40 pb-[30px] md:pb-[40px] lg:pb-[96px]">
       <div className="flex flex-col justify-center items-center space-y-3">
         <h1 className="font-Poppins font-semibold text-[16px] text-secondery">About us</h1>
-        <h1 className="font-Poppins font-semibold text-[36px] text-[#172B4D]">About the product</h1>
-        <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px] max-w-[560px]">Learn more about the company and the team behind it.</p>
+        <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">About the product</h1>
+        <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-8 md:pb-[64px] max-w-[560px] text-center">Learn more about the company and the team behind it.</p>
       </div>
 
 
-      <div className="flex justify-center items-center gap-[96px]">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-[96px]">
         <div>
           <img src="/about/photo01.png" alt="about photo" />
         </div>
         <div>
-          <div className="max-w-[560px]">
+          <div className="max-w-[560px] pb-6 md:pb-0">
             <h2 className="font-Inter font-semibold text-[16px] text-secondery">We’ve helped hundreds of companies</h2>
-            <h1 className="font-Poppins font-semibold text-[36px] text-[#172B4D]">We’re only just getting started on our journey</h1>
+            <h1 className="font-Poppins font-semibold md:text-[24px] lg:text-[36px] text-[#172B4D] pt-3 lg:pt-0">We’re only just getting started on our journey</h1>
           </div>
 
-          <div className="flex justify-between pb-[64px]">
+
+          <div className="flex justify-between py-6 lg:pb-[64px]">
             <div>
-              <h1 className="font-Poppins font-semibold text-[60px] text-secondery">8k+</h1>
+              <h1 className="font-Poppins font-semibold text-[30px] lg:text-[60px] text-secondery">8k+</h1>
               <p>Active users</p>
             </div>
 
             <div>
-              <h1 className="font-Poppins font-semibold text-[60px] text-secondery">600%</h1>
+              <h1 className="font-Poppins font-semibold text-[30px] lg:text-[60px] text-secondery text-end lg:text-start">600%</h1>
               <p>Return on investment</p>
             </div>
           </div>
 
+
           <div className="flex justify-between">
             <div>
-              <h1 className="font-Poppins font-semibold text-[60px] text-secondery">10k</h1>
+              <h1 className="font-Poppins font-semibold text-[30px] lg:text-[60px] text-secondery">10k</h1>
               <p>Global downloads</p>
             </div>
 
             <div>
-              <h1 className="font-Poppins font-semibold text-[60px] text-secondery">200+</h1>
+              <h1 className="font-Poppins font-semibold text-[30px] lg:text-[60px] text-secondery text-end lg:text-start">200+</h1>
               <p>5-star reviews</p>
             </div>
           </div>
@@ -106,7 +108,7 @@ const About = () => {
         <h2 className="font-Poppins font-medium text-[16px] text-[#535862] text-center">From startups to the world’s largest companies</h2>
 
         <div className="flex justify-center items-center  pt-[32px]">
-          <div className="flex items-center space-x-[92px]">
+          <div className="flex flex-wrap lg:flex-row items-center gap-10 md:gap-6 lg:space-x-[92px]">
             <span className="flex items-center gap-2">
               <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M13.2778 20.3183C14.1 17.25 17.2539 14.0961 20.3222 13.2739L39.4512 8.14749C42.5194 7.32522 44.3402 9.14597 43.5179 12.2142L38.3916 31.3432C37.5693 34.4115 34.4154 37.5654 31.3471 38.3877L12.2181 43.514C9.14988 44.3363 7.32913 42.5155 8.15139 39.4473L13.2778 20.3183Z" fill="#A4A7AE" />
@@ -160,18 +162,17 @@ const About = () => {
         </div>
       </div>
 
-
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex flex-col justify-center items-center space-y-3 pt-[212px]">
+        <div className="flex flex-col justify-center items-center space-y-3 pt-[122px] lg:pt-[212px]">
           <h1 className="font-Poppins font-semibold text-[16px] text-secondery">Our values</h1>
-          <h1 className="font-Poppins font-semibold text-[36px] text-[#172B4D]">How we work at Untitled</h1>
-          <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px]">Our shared values keep us connected and guide us as one team.</p>
+          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">How we work at Untitled</h1>
+          <p className="font-Inter text-center text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px]">Our shared values keep us connected and guide us as one team.</p>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
           {
             values.map((item, index) => {
               return (
-                <div key={index} className="max-w-[384px] text-center pt-[64px]">
+                <div key={index} className="max-w-[384px] text-center pt-10 md:pt-[64px]">
                   <span className="flex justify-center pb-[20px]" dangerouslySetInnerHTML={{ __html: item.image }}>
                   </span>
 

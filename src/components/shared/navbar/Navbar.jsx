@@ -170,7 +170,7 @@ const Navbar = () => {
                   </span>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-8">
                 <NavLink
                   to={'/'}

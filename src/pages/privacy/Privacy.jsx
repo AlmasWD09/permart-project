@@ -4,21 +4,17 @@
 const Privacy = () => {
   return (
     <>
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col justify-center items-center space-y-3 py-[96px]">
+      <div className="container mx-auto px-4 pt-20 md:pt-40">
+        <div className="flex flex-col justify-center items-center space-y-3">
           <h1 className="font-Poppins font-semibold text-[16px] text-secondery">Privacy</h1>
-          <h1 className="font-Poppins font-semibold text-[36px] text-[#172B4D]">Learn about our privacy & policy</h1>
-          <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px] ">We care about our user’s privacy. We do not sell any users data.</p>
+          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4] text-center">Learn about our privacy & policy</h1>
+          <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-8 md:pb-[64px] max-w-[560px] text-center">We care about our user’s privacy. We do not sell any users data.</p>
         </div>
       </div>
 
 
-
-
-
-
       {/* privacy content */}
-      <div className="bg-[#FFFFFF] mb-[49px] py-[64px]">
+      <div className="bg-[#FFFFFF] mb-8 lg:mb-[49px] lg:py-[64px]">
         <div className="w-full flex justify-center">
           <img src="/privacy/photo01.png" alt="privacy photo" />
         </div>
