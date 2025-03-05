@@ -3,9 +3,9 @@ const Footer = () => {
   return (
     <div className="bg-[#073F40] text-white font-Poppins py-[64px]">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between ">
+        <div className="flex flex-col md:flex-row md:justify-between ">
           <div className="">
-            <div className="flex items-center gap-2 pb-[32px] ">
+            <div className="flex  items-center gap-2 pb-[32px] ">
               <span>
                 <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M30.08 29.4398C30.08 30.6498 29.23 31.6698 28.09 31.9198C27.91 31.9598 27.73 31.9798 27.54 31.9798H26.23H2.58C2.58 31.9798 2.58 31.9798 2.57 31.9798C2.38 31.9798 2.19 31.9598 2.01 31.9198C0.86 31.6698 0 30.6398 0 29.4198V9.99984L16.29 0.339844C16.3 0.349844 16.32 0.359844 16.33 0.359844L16.53 0.479844L30.06 9.94984L30.08 29.4398Z" fill="black" />
@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <p>Your trusted marketplace for</p>
             <p>buying & selling pet essentials.</p>
-            <div className="flex space-x-5 pt-[32px]">
+            <div className="flex flex-col lg:flex-row lg:space-x-5 pt-[32px]">
               <a href="/">Overview</a>
               <a href="#">Features</a>
               <a href="/about">About us</a>
@@ -29,6 +29,10 @@ const Footer = () => {
               <a href="/privacy">Privacy</a>
             </div>
           </div>
+
+
+
+
           <div className="space-y-4">
             <h2>Get the app</h2>
             <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,12 +147,12 @@ const Footer = () => {
 
         <hr className="mt-[64px] mb-[32px]" />
 
-        <div className="flex justify-between items-center">
-          <h3>
+        <div className="flex flex-wrap lg:flex-row justify-between items-center">
+          <h3 className="text-center md:text-start">
             © 2026 Pet & beyond. All rights reserved.
           </h3>
 
-          <div className="flex items-center space-x-[24px]">
+          <div className="flex items-center space-x-[24px] pt-6 lg:pt-0">
             <span>
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9455 23L10.396 15.0901L3.44886 23H0.509766L9.09209 13.2311L0.509766 1H8.05571L13.286 8.45502L19.8393 1H22.7784L14.5943 10.3165L23.4914 23H15.9455ZM19.2185 20.77H17.2398L4.71811 3.23H6.6971L11.7121 10.2532L12.5793 11.4719L19.2185 20.77Z" fill="white" fill-opacity="0.5" />
