@@ -15,11 +15,11 @@ const Privacy = () => {
 
       {/* privacy content */}
       <div className="bg-[#FFFFFF] mb-8 lg:mb-[49px] lg:py-[64px]">
-        <div className="w-full flex justify-center">
+        <div className="max-w-7xl mx-auto px-4 pt-5 lg:pt-0">
           <img src="/privacy/photo01.png" alt="privacy photo" />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 pt-[64px]">
+        <div className="max-w-7xl mx-auto px-4 pt-10 lg:pt-[64px]">
           <div className="pb-[32px]">
             <p className="text-base text-[#3E4F6B] font-medium font-Poppins">Effective privacy from 6 jan, 2025</p>
             <p className="text-base text-[#3E4F6B] font-medium font-Poppins">Our privacy policy has been updated.</p>

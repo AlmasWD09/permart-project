@@ -162,6 +162,11 @@ const Slider = () => {
             name: "Training your pet effectively",
             description: "Best practices for training your pet to behave well.",
         },
+        {
+            image: "/blogs/photo04.png",
+            name: "Training your pet effectively",
+            description: "Best practices for training your pet to behave well.",
+        },
     ];
 
     return (

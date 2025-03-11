@@ -21,7 +21,7 @@ const FaqPage = () => {
 
       <div className="flex flex-col justify-center items-center space-y-3">
         <h1 className="font-Poppins font-semibold text-[16px] text-secondery">FAQs</h1>
-        <h1 className="text-[20px] text-wrap md:text-[36px] text-[#000000]  font-Poppins text-center">Frequently asked questions</h1>
+        <h1 className="text-[20px] text-wrap md:text-[36px] text-[#000000]  font-Poppins font-semibold text-center">Frequently asked questions</h1>
         <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px] text-center">Common questions from people ask about our products and services.</p>
       </div>
 
