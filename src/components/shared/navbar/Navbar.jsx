@@ -40,18 +40,27 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`fixed -top-[3px] left-0 w-full py-1 md:py-3 lg:py-2 shadow transition-all ease-in-out duration-300 ${navbar ? "bg-[#F1F0EA] z-50 fixed md:py-4" : "bg-[#f1f0ea] z-50"
+        className={`fixed -top-[3px] left-0 w-full py-1 md:py-3 lg:py-3  transition-all ease-in-out duration-300 ${navbar ? "bg-[#F1F0EA] z-50 fixed md:py-4" : "bg-[#efede2] z-50"
           }`}
       >
         <div className="max-w-7xl mx-auto flex items-center px-4 lg:px-0">
           <nav className="relative container flex justify-between items-center w-full">
             {/* Logo */}
             <div className="flex items-center gap-6 lg:hidden">
-              <div onClick={handleNavigate} className="">
-                {/* mobile device logo */}
-                <img src="/logo2.png" alt="logo" className="w-full h-full object-cover md:hidden" />
+              {/* only medium device */}
+              <div onClick={handleNavigate} className="cursor-pointer hidden md:block">
+                <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
+                  <img src="/logo.svg" alt="logo" className="h-20 object-cover" />
+                  <h1 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h1>
+                </span>
+              </div>
 
-                <img src="/logo3.png" alt="logo" className="h-20 object-cover hidden md:block"/>
+              {/* only small device */}
+              <div onClick={handleNavigate} className="cursor-pointer py-2  md:hidden">
+                <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
+                  <img src="/logo.svg" alt="logo" className="h-12 object-cover" />
+                  <h1 className=" font-Poppins font-bold text-[27px] text-[#000000]">PAWS&BUY</h1>
+                </span>
               </div>
             </div>
 
@@ -68,7 +77,7 @@ const Navbar = () => {
 
             {/* Sidebar (Mobile Menu) */}
             <div
-              className={`fixed top-0 right-0 h-full w-2/3 p-4 bg-gray-100 shadow-lg z-[200] transition-transform overflow-y-auto ${menuOpen ? "translate-x-0" : "translate-x-full"
+              className={`fixed top-0 right-0 h-full w-2/3 p-4 bg-[#efede2] shadow-lg z-[200] transition-transform overflow-y-auto ${menuOpen ? "translate-x-0" : "translate-x-full"
                 }`}
             >
               <button onClick={() => setMenuOpen(false)} className="absolute top-4 right-4">
@@ -148,9 +157,9 @@ const Navbar = () => {
             <div className="hidden lg:flex lg:justify-center items-center gap-[80px]">
               <div className="flex items-center gap-6">
                 <div onClick={handleNavigate} className="cursor-pointer">
-                  <span onClick={handleNavigate} className="flex items-center cursor-pointer">
-                   <img src="/logo3.png" alt="logo" className="h-20 object-cover"/>
-                    <h1 className="font-Quicksand font-bold text-2xl text-[#265758]">Pet & beyond</h1>
+                  <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
+                    <img src="/logo.svg" alt="logo" className="h-20 object-cover" />
+                    <h1 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h1>
                   </span>
                 </div>
               </div>

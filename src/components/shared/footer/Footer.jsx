@@ -1,13 +1,13 @@
 
 const Footer = () => {
   return (
-    <div className="bg-[#073F40] text-white font-Poppins py-[64px]">
+    <div className="bg-[#073F40] text-[#FFFFFF] font-Poppins py-[64px]">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row md:justify-between ">
           <div className="">
-            <div className="flex  items-center gap-2 pb-[32px] ">
-            <img src="/logo3.png" alt="logo" className="h-20 object-cover"/>
-              <h2 className=" font-Poppins text-2xl">Pet & beyond</h2>
+            <div className="flex  items-center gap-[16px] pb-[32px] ">
+            <img src="/logo.svg" alt="logo" className="h-20 object-cover"/>
+              <h2 className=" font-Poppins font-bold text-[32px] text-[#FFFFFF]">PAWS&BUY</h2>
             </div>
             <p>Your trusted marketplace for</p>
             <p>buying & selling pet essentials.</p>

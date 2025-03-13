@@ -9,13 +9,24 @@ const FaqPage = () => {
   };
 
   const faqs = [
-    { question: "What is Pet & beyond app, and how does it work?", answer: "Pet & Beyond is a marketplace where pet owners can buy and sell essential pet products, including food, accessories, grooming items, and more. Users can browse listings, connect with sellers, and make purchases with ease." },
-    { question: "Is my personal data safe with Pet & Beyond?", answer: "Click on the Sign Up button and fill in your details to create an account." },
-    { question: "How do I buy products on Pet & Beyond?", answer: "We offer both free and paid courses. Check the course details for pricing." },
-    { question: "Can I sell my pet products on Pet & Beyond?", answer: "Yes, we offer a refund within 7 days of purchase. Terms apply." },
-    { question: "Does Pet & Beyond offer delivery services?", answer: "We accept credit/debit cards, PayPal, and other online payment options." },
-    { question: "What should I do if I experience technical issues with the app?", answer: "We accept credit/debit cards, PayPal, and other online payment options." },
+    { question: "How Paws&Buy Works:?", answer: "Sign up and set up your profile.Upload product details, set a price, and describe the condition.Search for items, filter by category, and purchase securely.Transactions are handled safely via Stripe.Sellers can use prepaid shipping labels or arrange their own.A small fee ensures buyers can request refunds if needed.If an item isn’t as described, buyers can open a dispute." },
+
+
+    { question: "Is my personal information secure on Paws&Buy?", answer: "Specialized for pet lovers – Unlike general marketplaces, it focuses only on pet products Easy & secure transactions – Buyers and sellers have protection through verified payments.Eco-friendly – Encourages recycling and reusing pet items instead of discarding them." },
+
+
+    { question: "How do I buy a product on Paws&Buy?", answer: "Browse categories or search for specific items.Read reviews before purchasing.Click Buy Now and complete the transaction via Stripe.Sellers receive a prepaid label, and buyers can track orders.Once received, confirm in the app or open a dispute if needed." },
+
+
+    { question: "Can I sell second-hand pet products on Paws&Buy?", answer: "Sign up or log in to get started.Upload photos, write a description, and set a price.Chat with buyers and finalize the sale.Use our integrated shipping for a smooth transaction.Once confirmed by the buyer, you get paid securely." },
+
+
+    { question: "Does Paws&Buy offer delivery services?", answer: "Choose from available courier options. Prepaid labels make shipping easy.Drop off the item or schedule a pickup. Both sellers and buyers can monitor shipments in real-time." },
+
+
+    { question: "What should I do if I have technical issues with the Paws&Buy app?", answer: "Close and reopen it to check if the issue resolves.Ensure stable Wi-Fi or mobile data.Download the latest version from the App Store or Google Play.On Android, go to settings and clear the app cacheLog in from another device to test functionality. If problems persist, email info@pawsandbuy.com with error details and screenshots." },
   ];
+  
   return (
     <div className="pb-[30px] md:pb-[40px] lg:pb-[64px] pt-20 md:pt-40">
 
