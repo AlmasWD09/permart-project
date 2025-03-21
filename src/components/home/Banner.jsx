@@ -37,9 +37,11 @@ const Banner = () => {
                         <div className="relative">
                             <img src="/banner/photo02.png" alt="banner photo" className="" />
 
+                            {/* Overlay */}
+                            <div className="absolute inset-0 bg-gray-100 bg-opacity-50"></div>
 
                             <div className="absolute top-2 md:top-[73px] right-4 md:right-[32px] z-30 ">
-                                <h2 className="font-Poppins md:text-[30px] max-w-[200px] md:max-w-[339px] text-end">Meet our <span className="text-primary">Pet & beyond</span> mobile app.</h2>
+                                <h2 className="font-Poppins md:text-[30px] max-w-[200px] md:max-w-[339px] text-end">Meet our <span className="text-[#172B4D] font-Poppins font-bold">Paws&Buy</span> mobile app.</h2>
                                 <p className="text-end">Smooth transactions with</p>
                                 <p className="text-end">better experience.</p>
                             </div>
@@ -52,6 +54,11 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
+
+
+
+
+
 
 
                     <div className="flex flex-col md:flex-row gap-6">

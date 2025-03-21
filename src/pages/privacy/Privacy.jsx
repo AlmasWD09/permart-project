@@ -26,7 +26,7 @@ const Privacy = () => {
           </div>
 
           <div className="pb-[32px]">
-            <p className="text-base text-[#172B4D] font-Poppins max-w-[720px]">Welcome to Pet & Beyond! Your privacy is important to us, and we are committed to protecting the personal information you share with us. Please read our Privacy Policy carefully to understand how we collect, use, and protect your data.</p>
+            <p className="text-base text-[#172B4D] font-Poppins max-w-[720px]">Welcome to Paws&Buy! Your privacy is important to us, and we are committed to protecting the personal information you share with us. Please read our Privacy Policy carefully to understand how we collect, use, and protect your data.</p>
           </div>
 
           <div className="pb-[24px]">
