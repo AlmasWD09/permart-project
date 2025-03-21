@@ -65,7 +65,7 @@ const Banner = () => {
                         <div className="relative">
                             <img src="/banner/photo04.png" alt="banner photo" />
                             <div className="absolute top-1/2 z-30 left-6">
-                                <p className="font-Poppins lg:text-[30px] text-white  max-w-[229px]">Discover the best for your furry friend.</p>
+                                <p className="font-Poppins lg:text-[30px] text-white  max-w-[140px]">Discover the <br />  best for your furry friend.</p>
                             </div>
                         </div>
 
