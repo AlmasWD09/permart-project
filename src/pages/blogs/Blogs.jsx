@@ -5,7 +5,9 @@ const Blogs = () => {
       <div>
         <div className="flex flex-col justify-center items-center space-y-3">
           <h1 className="font-Poppins font-semibold text-[16px] text-secondery">Blog posts</h1>
-          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4] text-center">To get knowledge read our blogs</h1>
+          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4] text-center">
+            To get knowledge about the pet's world read our blogs
+          </h1>
           <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-8 md:pb-[64px] max-w-[560px] text-center text-wrap px-4 md:px-0">Helps you to keep update about your pet’s fitness.</p>
         </div>
 
