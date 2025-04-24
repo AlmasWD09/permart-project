@@ -3,8 +3,8 @@ const Banner = () => {
 
     return (
         <div className="bg-[#ECE9D8] pt-[120px]">
-            <div className="max-w-7xl mx-auto px-4">
-                <div className="flex flex-col md:flex-row items-center gap-8 pb-4">
+            <div className="max-w-7xl mx-auto px-4 lg:px-0">
+                <div className="flex flex-col md:flex-row items-center gap-8  pb-4">
                     {/* left side */}
                     <div>
                         <div className="">
