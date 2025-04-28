@@ -139,7 +139,7 @@ const Footer = () => {
 
         <div className="flex flex-wrap lg:flex-row justify-between items-center">
           <h3 className="text-center md:text-start">
-          © 2026 Paws&Buy. All rights reserved.
+          © 2025 Paws&Buy. All rights reserved.
           </h3>
 
           <div className="flex items-center space-x-[24px] pt-6 lg:pt-0">
