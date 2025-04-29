@@ -180,7 +180,7 @@ const Footer = () => {
             © 2025 Paws&Buy. All rights reserved.
           </h3>
 
-          <div className="flex items-center space-x-[24px] pt-6 lg:pt-0">
+          <div className=" flex justify items-center  space-x-[24px] pt-6 lg:pt-0">
             <a href="https://www.facebook.com/share/1ABnFiXv7F/?mibextid=wwXIfr">
               <FaFacebook className="text-3xl text-gray-400 opacity-80" />
             </a>
