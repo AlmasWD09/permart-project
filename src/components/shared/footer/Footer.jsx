@@ -1,8 +1,25 @@
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTiktok } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { useState } from "react";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+    if (!email) {
+      alert("Please enter your email address.");
+      return;
+    }
+
+    // Replace this with your backend/API call
+    console.log("Subscribed Email:", email);
+
+    alert("Thanks for subscribing!");
+    setEmail("");
+  };
   return (
     <div className="bg-[#073F40] text-[#FFFFFF] font-Poppins py-[64px]">
       <div className="max-w-7xl mx-auto px-4">
@@ -134,7 +151,25 @@ const Footer = () => {
               </defs>
             </svg>
 
+            <div>
 
+              <form onSubmit={handleSubscribe} className="flex items-center bg-white rounded-full overflow-hidden">
+                <input
+                  type="email"
+                  className="px-4 py-3 w-full text-black outline-none"
+                  placeholder="Enter Email Address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+                <button
+                  type="submit"
+                  className="bg-primary rounded-full text-white py-2 px-6 mr-2  hover:bg-primary transition"
+                >
+                  <FaLongArrowAltRight />
+                </button>
+              </form>
+            </div>
           </div>
         </div>
 
