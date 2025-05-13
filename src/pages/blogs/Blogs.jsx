@@ -59,6 +59,65 @@ const Blogs = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+      <section className="">
+        <div className="text-center flex flex-col justify-center items-center pt-10 lg:pt-20">
+          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-secondery">Our Popular Blogs</h1>
+          <p className=" font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-8 md:pb-[64px] max-w-[560px] text-center text-wrap px-4 md:px-0">Explore our most-read and loved blogs, packed with helpful tips, expert advice, and heartwarming pet stories.</p>
+        </div>
+        <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+          <a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
+            <img src="/blogs/photo10.jpg" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+            <div className="p-6 space-y-2 lg:col-span-5">
+              <h3 className="text-2xl font-semibold sm:text-4xl font-Poppins">Your Cat Mentally Stimulated Indoors</h3>
+              <span className="text-xs dark:text-gray-600">February 19, 2025</span>
+              <p>Indoor cats need fun too! Discover toys, games, and creative enrichment ideas to prevent boredom and support your cat’s mental well-being.</p>
+            </div>
+          </a>
+
+
+
+
+          <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+
+            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+              <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="/blogs/photo08.jpg" />
+              <div className="p-6 space-y-2">
+                <h3 className="text-2xl font-semibold font-Poppins">Healthy Homemade Treats for Your Pets</h3>
+                <span className="text-xs dark:text-gray-600">January 21, 2025</span>
+                <p>the store-bought snacks! Discover easy, nutritious, and pet-safe homemade treat recipes that your dog or cat will absolutely love.</p>
+              </div>
+            </a>
+
+
+
+            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+              <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="/blogs/photo07.jpg" />
+              <div className="p-6 space-y-2">
+                <h3 className="text-2xl font-semibold font-Poppins">How to Create a Pet-Friendly Home</h3>
+                <span className="text-xs dark:text-gray-600">February 22, 2024</span>
+                <p>Ensure your home is safe and welcoming for your pets. This blog covers pet-proofing tips, cozy spaces, and fun enrichment ideas for a happier environment.</p>
+              </div>
+            </a>
+
+            <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+              <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="/blogs/photo06.jpg" />
+              <div className="p-6 space-y-2">
+                <h3 className="text-2xl font-semibold font-Poppins">Essential Tips for First-Time Pet Owners</h3>
+                <span className="text-xs dark:text-gray-600">January 13, 2025</span>
+                <p>Bringing a new pet home? This blog will guide you through the must-know tips to ensure your furry friend feels safe, happy, and loved from day one.</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </section>
     </div>
   )
 }

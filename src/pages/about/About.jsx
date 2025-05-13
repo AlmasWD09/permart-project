@@ -165,7 +165,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col justify-center items-center space-y-3 pt-[122px] lg:pt-[212px]">
           <h1 className="font-Poppins font-semibold text-[16px] text-secondery">Our values</h1>
-          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">How we work at Untitled</h1>
+          <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">How we work </h1>
           <p className="font-Inter text-center text-[20px] text-[#3E4F6B] pt-[12px] pb-[64px]">Our shared values keep us connected and guide us as one team.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3">

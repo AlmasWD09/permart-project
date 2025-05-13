@@ -151,8 +151,7 @@ const Footer = () => {
               </defs>
             </svg>
 
-            <div>
-
+            <div className="lg:pt-4 ">
               <form onSubmit={handleSubscribe} className="flex items-center bg-white rounded-full overflow-hidden">
                 <input
                   type="email"

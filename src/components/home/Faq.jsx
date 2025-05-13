@@ -8,7 +8,7 @@ const Faq = () => {
         setOpenIndex(openIndex === index ? null : index);
     };
     const faqs = [
-        { question: "How Paws&Buy Works:?", answer: "Sign up and set up your profile.Upload product details, set a price, and describe the condition.Search for items, filter by category, and purchase securely.Transactions are handled safely via Stripe.Sellers can use prepaid shipping labels or arrange their own.A small fee ensures buyers can request refunds if needed.If an item isn’t as described, buyers can open a dispute." },
+        { question: "How Paws&Buy Works?", answer: "Sign up and set up your profile.Upload product details, set a price, and describe the condition.Search for items, filter by category, and purchase securely.Transactions are handled safely via Stripe.Sellers can use prepaid shipping labels or arrange their own.A small fee ensures buyers can request refunds if needed.If an item isn’t as described, buyers can open a dispute." },
 
 
         { question: "Is my personal information secure on Paws&Buy?", answer: "Specialized for pet lovers – Unlike general marketplaces, it focuses only on pet products Easy & secure transactions – Buyers and sellers have protection through verified payments.Eco-friendly – Encourages recycling and reusing pet items instead of discarding them." },
